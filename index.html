@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>DC COMICS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        body {
+            background: #20242e;
+            margin: auto;
+            text-align: center;
+        }
+
+        #banner {
+            width: 100%;
+            height: 400px;
+            background: url(imagens/imagem1.jpg) no-repeat center;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #nav {
+            width: 100%;
+            height: 52px;
+            background: #4B5063;
+        }
+
+        #nav ul {
+            width: 800px;
+            height: 52px;
+            margin: auto;
+        }
+
+        #nav ul li {
+            display: inline-block;
+        }
+
+        #nav ul li a {
+            font: normal 16px verdana;
+            padding: 0 10px;
+            color: #FFF;
+            line-height: 52px;
+            display: inline-block;
+        }
+
+        #nav ul li a:hover {
+            background: #333;
+        }
+
+        .linha-vert {
+            border-left: 1px solid white;
+            line-height: 52px;
+            margin: 0 5px;
+        }
+
+        /*lego e trailers*/
+        #container {
+            clear: both;
+            width: 1000px;
+            height: auto;
+            background: #FFF;
+            margin: auto;
+            padding-top: 1px;
+        }
+
+        .bg-titulo {
+            width: 340px;
+            background: url(imagens/barra-titulos.jpg) no-repeat;
+            margin-top: 15px;
+        }
+
+        .titulo {
+            font: bold 16px verdana;
+            text-align: left;
+            margin: 3px 0;
+        }
+
+        #destaque {
+            margin: 15px auto;
+            width: 808px;
+            height: 295px;
+        }
+
+        .ajusta-destaque {
+            float: left;
+            margin: 0 5px;
+        }
+
+        #trailers {
+            width: 1000px;
+            height: 165px;
+            margin: auto;
+        }
+
+        #container-trailer {
+            width: 744px;
+            height: 137px;
+            margin: 15px auto;
+        }
+
+        .ajuste-trailer {
+            width: 244px;
+            float: left;
+            margin: 0 2px;
+        }
+
+        .texto-trailer {
+            width: 244px;
+            height: 20px;
+            background: #354343;
+            color: #FFF;
+            font: normal 12px arial;
+            line-height: 20px;
+        }
+
+        /*produtos em destaque CSS - início */
+        #lojadc {
+            width: 1000px;
+            height: 420px;
+            margin: auto;
+        }
+
+        #container-loja {
+            width: 672px;
+            margin: auto;
+        }
+
+        .ajuste-produto {
+            width: 220px;
+            margin: 15px 2px;
+            float: left;
+        }
+
+        .texto-prod {
+            font: normal 12px arial;
+            margin: 0;
+        }
+
+        .destaque-preco {
+            font: bold 14px arial;
+            color: red;
+        }
+
+        /*rodapé - início*/
+        footer {
+            width: 100%;
+            height: 300px;
+            padding-top: 1px;
+            background: url(imagens/bg-footer.jpg) no-repeat center;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #container-footer {
+            width: 1000px;
+            height: 200px;
+            margin: 15px auto;
+        }
+
+        .nav-footer {
+            width: 150px;
+            float: left;
+            margin: 0 10px;
+        }
+
+        .titulo-footer {
+            width: 150px;
+            font: bold 14px arial;
+            color: #065FBE;
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        .nav-footer ul li {
+            width: 150px;
+            height: 20px;
+            text-align: left;
+        }
+
+        .nav-footer ul li a {
+            font: normal 12px arial;
+            color: white;
+        }
+
+        /*redes sociais css */
+        #redes-sociais {
+            width: 100%;
+            height: 70px;
+            background: #20242E;
+        }
+
+        .icones-rs {
+            width: 1000px;
+            height: 70px;
+            margin: auto;
+        }
+
+        .ajusta-img {
+            margin: 15px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <figure>
+            <img id="banner" />
+        </figure>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">HOME</a><span class="linha-vert"></span></li>
+                <li><a href="#">NOVIDADES</a><span class="linha-vert"></span></li>
+                <li><a href="#">EPISÓDIOS</a><span class="linha-vert"></span></li>
+                <li><a href="#">TEMPORADAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="container">
+        <div class="bg-titulo">
+            <h1 class="titulo">AVENTURA LEGO</h1>
+        </div>
+        <figure id="destaque">
+            <div class="ajusta-destaque">
+                <img src="imagens/lego1.jpg" alt="Lego 1" />
+            </div>
+            <div class="ajusta-destaque">
+                <img src="imagens/lego2.jpg" alt="Lego 2" />
+            </div>
+            <div class="ajusta-destaque">
+                <img src="imagens/lego3.jpg" alt="Lego 3" />
+            </div>
+            <div class="ajusta-destaque">
+                <img src="imagens/lego4.jpg" alt="Lego 4" />
+            </div>
+        </figure>
+
+        <div class="bg-titulo">
+            <h1 class="titulo">TRAILERS</h1>
+        </div>
+        <figure id="trailers">
+            <div id="container-trailer">
+                <div class="ajuste-trailer">
+                    <img src="imagens/trailer1.jpg" alt="Mulher Maravilha" />
+                    <a href="https://www.youtube.com/watch?v=VSB4wGIdDwo" target="_blank">
+                        <figcaption class="texto-trailer">Play</figcaption>
+                    </a>
+                </div>
+                <div class="ajuste-trailer">
+                    <img src="imagens/trailer2.jpg" alt="Aquaman" />
+                    <a href="https://www.youtube.com/watch?v=WDkg3h8PCVU&ab_channel=WarnerBros.Pictures" target="_blank">
+                        <figcaption class="texto-trailer">Play</figcaption>
+                    </a>
+                </div>
+                <div class="ajuste-trailer">
+                    <img src="imagens/trailer3.jpg" alt="Ciborgue" />
+                    <a href="https://www.youtube.com/watch?v=dI2xxH2tg-s" target="_blank">
+                        <figcaption class="texto-trailer">Play</figcaption>
+                    </a>
+                </div>
+            </div>
+        </figure>
+        <div class="bg-titulo">
+            <h1 class="titulo">LOJA DC COMICS</h1>
+        </div>
+        <figure id="lojadc">
+            <div id="container-loja">
+                <div class="ajuste-produto">
+                    <img src="imagens/produto1.jpg" alt="" />
+                    <p class="texto-prod">Camiseta Feminina Wonder Woman Shield</p>
+                    <p class="texto-prod destaque-preco">Por: R$ 80,00</p>
+                    <p class="texto-prod">ou 3x Sem juros de R$ 26,66</p>
+                </div>
+                <div class="ajuste-produto">
+                    <img src="imagens/produto2.jpg" alt="" />
+                    <p class="texto-prod">Chinelo Slide Wonder Woman Movie</p>
+                    <p class="texto-prod destaque-preco">Por: R$ 90,00</p>
+                    <p class="texto-prod">ou 3x Sem juros de R$ 30,00</p>
+                </div>
+                <div class="ajuste-produto">
+                    <img src="imagens/produto3.jpg" alt="" />
+                    <p class="texto-prod">Camiseta Masculina Arrow You Have Failed This City</p>
+                    <p class="texto-prod destaque-preco">Por: R$ 69,90</p>
+                    <p class="texto-prod">ou 3x Sem juros de R$ 23,30</p>
+                </div>
+            </div>
+        </figure>
+
+    </section>
+
+    <footer>
+        <div id="container-footer">
+            <nav class="nav-footer">
+                <h1 class="titulo-footer">DC COMICS</h1>
+                <ul>
+                    <li><a href="#">Características</a></li>
+                    <li><a href="#">Quadrinhos</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-footer">
+                <h1 class="titulo-footer">LOJA</h1>
+                <ul>
+                    <li><a href="#">Shop DC</a></li>
+                    <li><a href="#">Shop DC Colecionadores</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </footer>
+
+    <div id="redes-socias">
+        <div class="icones-rs">
+            <figure>
+                <a href="https://www.facebook.com/" target="_blank"><img class="ajusta-img" src="imagens/icone-face.png"
+                        alt="" /></a>
+
+                <a href="https://www.twitter.com/" target="_blank"><img class="ajusta-img"
+                        src="imagens/icone-twitter.png" alt="" /></a>
+
+                <a href="https://www.youtube.com/" target="_blank"><img class="ajusta-img"
+                        src="imagens/icone-youtube.png" alt="" /></a>
+
+                <a href="https://www.pinterest.com/" target="_blank"><img class="ajusta-img"
+                        src="imagens/icone-pinterest.png" alt="" /></a>
+
+            </figure>
+        </div>
+    </div>
+
+</body>
+
+</html>
